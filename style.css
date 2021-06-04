@@ -1,0 +1,85 @@
+.form-div{
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form-div span{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    font-variant: normal;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px cyan;
+}
+input,button{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 1px blue;
+}
+input:hover{
+    border: none;
+    box-shadow: 1px 1px 5px black;
+}
+button:hover{
+    border: none;
+    box-shadow: 1px 1px 10px green;
+}
+.loading{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.out{
+    border: none !important;
+    background-color: rgb(245, 223, 223);
+    padding: 20px;
+}
+.inner{
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgb(112, 116, 116);
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+.container{
+    margin-top: 20px;
+}
+.movie-name{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px 0px;
+    display: block;
+    margin: 10px auto;
+    font-variant: normal;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(80, 230, 230);
+}
+
+.heading-name{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px 0px;
+    font-variant: normal;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(227, 240, 240);
+}
+.description{
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+@media (max-width:379px) {
+    .movie-img{
+        width: 100px;
+    }
+}
